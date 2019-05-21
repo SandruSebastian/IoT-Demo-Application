@@ -1,0 +1,46 @@
+{
+  "name": "Nodes",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11",
+    "material-colors": "^1.2.6",
+    "md5": "^2.2.1",
+    "normalizr": "^3.3.0",
+    "path-to-regexp": "^3.0.0",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.0.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.2",
+    "reselect": "^4.0.0",
+    "timezone-support": "^1.8.1",
+    "urijs": "^1.19.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
