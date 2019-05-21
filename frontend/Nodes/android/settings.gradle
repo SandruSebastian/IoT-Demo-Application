@@ -1,0 +1,3 @@
+rootProject.name = 'Nodes'
+
+include ':app'
